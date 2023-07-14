@@ -1,0 +1,124 @@
+
+
+ body, #website-header{	 
+	 margin: 0px;
+ }
+
+ header {
+	 background-color: #111111;
+	 text-align: center;
+	 height: 200px;
+	 border-bottom: 10px solid #C4C4C4;
+
+ }
+
+ #website-header {
+	 font-family: Roboto;
+	 padding: 25px;
+	 font-size: 55px;
+	 padding-bottom: 70px;
+	 color: #eeeeee;
+	 font-family: Helvetica; 
+ }
+ 
+ 
+ nav {
+	 display: flex;
+	 justify-content: space-evenly;
+ }
+ a {
+	 target: blank;
+	 color: #eeeeee;
+	 text-decoration: none; 
+	 font-family: Helvetica;
+ }
+ 
+ a:hover {
+	 text-decoration: underline; 
+ }
+ 
+ .line-block {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 height: 80px;
+	 width: 100%;
+	 background-color: lightgray;
+		
+ }
+ 
+ .line-block2 {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 height: 80px;
+	 width: 100%;
+	 background-color: lightgray;
+ }
+ 
+ .horizontal-line {
+	 border-bottom: 1px solid #222;
+	 width: 60%;
+	 border-radius: 5px;
+	 margin-bottom: -20px;
+	
+ }
+
+.container-block {
+	width: 100%;
+	height: 105vh;
+	background-color: lightgray;
+	display: grid;
+	grid-template-columns: repeat(3, 500px);
+	grid-template-rows: repeat(3, 500px);
+	justify-content: center;
+	grid-column-gap: 100px;
+	grid-row-gap: 50px;
+	padding-bottom: 50px;
+	padding-top: 25px;
+
+}
+
+.container {
+	background-color: #111111;
+	color: white;
+	text-align: center;
+	border-radius: 40px;
+	border: 2px solid white;
+	padding: 15px;
+
+	
+}
+
+ .boundary {
+	 height: 100%;
+	 border: 2px solid lightgray;
+	 border-radius: 40px;
+	 display: grid;
+	 grid-template-rows: 0.5fr 1fr 0.1fr 1fr;
+ }
+
+.box-header {
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 0.5px solid white;
+	margin: 10px;
+	font-weight: none;
+}
+
+.time_format {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: Verdana;
+}
+
+
+.container_underline { 
+	border-top: 0.1px dashed white;
+	margin: 0 60px;
+}
